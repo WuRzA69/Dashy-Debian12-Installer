@@ -13,6 +13,6 @@ To use the script clone this GitHub Repo und start the script
 ```
 Or, get the script with wget 
 ```bash
-  wget https://github.com/WuRzA69/Dashy-Debian12-Installer/blob/main/DashyInstall.sh
+  wget https://raw.githubusercontent.com/WuRzA69/Dashy-Debian12-Installer/main/DashyInstall.sh
   ./DashyInstall.sh
 ```
