@@ -14,5 +14,6 @@ To use the script clone this GitHub Repo und start the script
 Or, get the script with wget 
 ```bash
   wget https://raw.githubusercontent.com/WuRzA69/Dashy-Debian12-Installer/main/DashyInstall.sh
+  chmod +x DashyInstall.sh
   ./DashyInstall.sh
 ```
