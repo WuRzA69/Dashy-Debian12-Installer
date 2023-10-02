@@ -8,7 +8,7 @@ To use the script clone this GitHub Repo und start the script
 
 ```bash
   git clone https://github.com/WuRzA69/Dashy-Debian12-Installer
-  cd Dashy-Debian12-Instller/
+  cd Dashy-Debian12-Installer/
   ./DashyInstaller.sh
 ```
     
