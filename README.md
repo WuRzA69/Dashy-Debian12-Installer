@@ -7,8 +7,7 @@ This is a All-In-One install script for Dashy
 To use the script clone this GitHub Repo und start the script
 
 ```bash
-  git clone https://github.com/WuRzA69/Dashy-Debian12-Installer
-  cd Dashy-Debian12-Installer/
+  wget https://github.com/WuRzA69/Dashy-Debian12-Installer/blob/main/DashyInstall.sh
   ./DashyInstall.sh
 ```
     
