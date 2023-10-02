@@ -14,17 +14,15 @@
 #############################################################################
 
 #Variables
-VERSION=v16.0.0
-DISTRO=linux-x64
+VERSION=v16.0.0                                #Nodejs Info (do not change)
+DISTRO=linux-x64                               #Nodejs Info (do not change)
 IP=$(hostname -I | awk '{print $1}')
-PORT=4000
+PORT=4000                                      #Port for Dashy (change if needed)
 
 #Installing some stuff
 apt install -y git wget curl 
 
 #Installing NodeJS 16 via binary
-VERSION=v16.0.0
-DISTRO=linux-x64
 wget https://nodejs.org/dist/$VERSION/node-$VERSION-$DISTRO.tar.xz
 mkdir -p /usr/local/lib/nodejs
 tar -xJvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/nodejs 
@@ -32,6 +30,7 @@ export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
 ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/node /usr/bin/node
 ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/npm /usr/bin/npm
 ln -s /usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin/npx /usr/bin/npx
+rm node-$VERSION-$DISTRO.tar.xz
 
 
 #install yarn via apt
